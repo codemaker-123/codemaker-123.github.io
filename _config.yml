@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Wenyuan Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : images/img.jpg"
   location         : "Earth"
   employer         : "University of Illinois Urbana-Champaign"
   uri              : # URL
