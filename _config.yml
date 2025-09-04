@@ -22,10 +22,10 @@ repository               : "codemaker-123/codemaker-123.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/img.jpg"
   name             : "Wenyuan Wang"
   pronouns         : # example: "she/her"  
-  bio              : images/img.jpg"
+  bio              : ""
   location         : "Earth"
   employer         : "University of Illinois Urbana-Champaign"
   uri              : # URL
