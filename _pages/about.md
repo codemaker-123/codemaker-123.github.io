@@ -9,7 +9,7 @@ redirect_from:
 
 Now I am a research intern at UIUC, working with Prof. Tong Zhang. Previously I was a visiting student at Rutgers in 2024-2025, advised by Prof. Hao Wang. I obtained my electronic informaton engineering bachelor degree at Wuhan University in 2024.
 
-Research Interests #A data-driven personal website
+Research Interests
 ======
 My research interests are broad, encompassing multimodal learning and computer vision, with a focus on reasoning. Recently, I have also become interested in formal languages and their potential to enhance reasoning abilities.
 
