@@ -11,4 +11,4 @@ Now I am a research intern at UIUC, working with Prof. Tong Zhang. Previously I 
 
 Research Interests
 ======
-My research interests span across multimodal learning and computer vision, with a particular emphasis on reasoning. Recently, I have developed a growing interest in formal languages and their potential to augment reasoning capabilities.
+My research interests span multimodal learning and computer vision, with a particular emphasis on reasoning. Recently, I have developed a growing interest in formal languages and their potential to augment reasoning capabilities.
