@@ -1,14 +1,21 @@
 ---
-title: "Paper Title Number 2"
+title: "Probabilistic Residual User Clustering"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2024-07-01-probabilistic-residual-user-clustering
+excerpt: 'A causal Bayesian framework that clusters users and models residuals between predicted and true ratings to enhance recommendation accuracy.'
+date: 2024-07-01
+venue: 'IJCAI2025 Workshop / Submitted to TMLR'
+slidesurl: ''
+paperurl: ''
+citation: 'Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Shreya Venugopal, Desmond Lobo, Chengzhi Mao, Qi Xu, Zhigang Hua, Yan Xie, Bo Long, Shuang Yang, Hao Wang. &quot;Probabilistic Residual User Clustering.&quot; <i>IJCAI2025 Workshop / Submitted to TMLR</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work proposes **PRUC** (Probabilistic Residual User Clustering), a causal Bayesian framework that clusters users and models residuals between predicted and true ratings to enhance recommendation accuracy.
+
+## Key Contributions
+- Introduced a plug-and-play architecture compatible with diverse deep learning recommenders
+- Improved performance in cold-start and domain-shift settings
+- Demonstrated significant improvement across benchmark datasets while uncovering meaningful user clusters via latent variable inference
+
+**Status**: Accepted at IJCAI2025 Workshop on Causal Learning for Recommendation Systems, Under Review at TMLR

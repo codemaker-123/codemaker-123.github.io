@@ -11,54 +11,71 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Electronic Information Engineering, Wuhan University, 2024
+  * GPA: 3.60/4.0 (87.2%)
+  * Third Class Scholarship of School of Electronic Information, 2021
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Mar 2025 - May 2025: **Geo-Image-Textualization**
+  * Research Assistant, Department of Computer Science, UIUC
+  * Advisor: Prof. Tong Zhang
+  * Proposed Geo-Image-Textualization, a reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs
+  * Constructed GeoReasoning-10K, the first dataset with full modality equivalence for geometric reasoning
+  * Demonstrated significant improvements in Qwen-2.5-vl performance across geometry, arithmetic, algebraic, and numeric domains
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jul 2024 - Jan 2025: **Probabilistic Residual User Clustering**
+  * Research Assistant, Department of Computer Science, Rutgers
+  * Advisor: Prof. Hao Wang
+  * Proposed PRUC, a causal Bayesian framework that clusters users and models residuals between predicted and true ratings
+  * Introduced a plug-and-play architecture compatible with diverse deep learning recommenders
+  * Demonstrated significant improvement across benchmark datasets while uncovering meaningful user clusters
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* May 2024 - Sep 2024: **Interpretability of MLLM**
+  * Research Assistant, Department of Computer Science, Rutgers
+  * Advisor: Prof. Hao Wang
+  * Identified strong correlations between visual inputs and token-level outputs in LLaVA
+  * Enhanced interpretability by uncovering underlying attention mechanisms
+  * Proposed adaptive pruning technique to selectively prune hierarchical attention layers
+
+* Mar 2024 - May 2024: **Multimodal Needle Benchmark & Continual Learning Survey**
+  * Research Assistant, Department of Computer Science, Rutgers
+  * Advisor: Prof. Hao Wang
+  * Evaluated performance of InstructBLIP vicuna/t5 on custom-developed benchmark
+  * Researched advancements in continual learning for multimodal large language models
+
+* Jun 2023 - Sep 2023: **Dynamic Scene Graph Generation**
+  * Research Assistant, Shenzhen University
+  * Advisors: Prof. Runhao Zeng, Chuang Gan
+  * Deployed Multimodal-LLM following MiniGPT4 and fine-tuned on AG datasets to generate scene graphs
+  * Fine-tuned class, box models in MiniGPT4's base model by transfer learning to enhance relationship predictions
+
+* Feb 2023 - Apr 2023: **Multi-Tailed Vision Transformers**
+  * Research Assistant, Department of Computer Science, University of Sydney
+  * Advisor: Prof. Chang Xu
+  * Designed multiple tails to generate visual sequences of different lengths for Transformer encoder
+  * Achieved significant reduction in FLOPs with no accuracy degradation
+
+Work Experience
+======
+* Aug 2023 - Jan 2024: **Visual Alignment in Industrial Settings**
+  * Intern, Siemens, Shanghai, China
+  * Simulated AGV to detect cargo in Gazebo based on ROS2
+  * Designed visual algorithm that calculated pose and position of cargo by determining its frontal area
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming**: Proficient in Python, C++, C
+* **Development Tools & Platforms**: Experienced with ROS, Linux, and embedded systems
+* **Research Areas**:
+  * Multimodal Learning
+  * Computer Vision
+  * Reinforcement Learning
+  * Trustworthy AI
+  * Large Language Models
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

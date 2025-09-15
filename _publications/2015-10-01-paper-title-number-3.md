@@ -1,14 +1,21 @@
 ---
-title: "Paper Title Number 3"
+title: "Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: conferences
+permalink: /publication/2025-01-01-multimodal-needle-haystack
+excerpt: 'A comprehensive benchmark for evaluating the long-context capabilities of multimodal large language models.'
+date: 2025-01-01
+venue: 'NAACL 2025 Main'
+slidesurl: ''
+paperurl: ''
+citation: 'Hengyi Wang, Haizhou Shi, Shiwei Tan, Weiyi Qin, Wenyuan Wang, Tunyu Zhang, Akshay Nambi, Tanuja Ganu, Hao Wang. &quot;Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models.&quot; <i>NAACL 2025 Main</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work introduces a comprehensive benchmark for evaluating the long-context capabilities of multimodal large language models, extending the traditional "needle in a haystack" evaluation to multimodal settings.
+
+## Key Contributions
+- Developed novel evaluation protocols for multimodal long-context understanding
+- Created comprehensive benchmarks spanning various modalities and context lengths
+- Provided systematic analysis of current MLLM limitations in long-context scenarios
+
+**Status**: Accepted at NAACL 2025 Main Conference

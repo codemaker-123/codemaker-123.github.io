@@ -1,14 +1,22 @@
 ---
-title: "Paper Title Number 1"
+title: "Generalizable Geometric Image Caption Synthesis"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-01-01-geo-image-textualization
+excerpt: 'A reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs, creating the first dataset with full modality equivalence for geometric reasoning.'
+date: 2025-01-01
+venue: 'NeurIPS Datasets and Benchmarks Track (Under Review)'
+slidesurl: ''
+paperurl: ''
+bibtexurl: ''
+citation: 'Wenyuan Wang*, Yue Xin*, Rui Pan*, BingXu Meng*, Renjie Pi, Tong Zhang. &quot;Generalizable Geometric Image Caption Synthesis.&quot; <i>Submitted to NeurIPS Datasets and Benchmarks Track</i>.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This work proposes **Geo-Image-Textualization**, a reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs. We constructed **GeoReasoning-10K**, the first dataset with full modality equivalence for geometric reasoning, enhancing MLLMs' cross-modal alignment.
+
+## Key Contributions
+- Developed a novel RL-based framework for geometry-text alignment
+- Created GeoReasoning-10K dataset with full modality equivalence
+- Demonstrated significant improvements in Qwen-2.5-vl performance across geometry, arithmetic, algebraic, and numeric domains
+
+**Status**: Under Review at NeurIPS 2025 Datasets and Benchmarks Track

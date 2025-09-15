@@ -1,13 +1,21 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Multi-tailed vision transformer for efficient inference"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2024-01-01-multi-tailed-vision-transformer
+excerpt: 'A novel architecture that uses multiple tails to generate visual sequences of different lengths for efficient vision transformer inference.'
+date: 2024-01-01
+venue: 'Neural Networks'
+paperurl: ''
+citation: 'Yunke Wang, Bo Du, Wenyuan Wang, Chang Xu. &quot;Multi-tailed vision transformer for efficient inference.&quot; <i>Neural Networks</i>, 2024, 174: 106235.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This work introduces a novel multi-tailed vision transformer architecture that significantly improves computational efficiency while maintaining accuracy.
+
+## Key Contributions
+- Designed multiple tails to generate visual sequences of different lengths for the Transformer encoder
+- Employed a tail predictor to determine which tail produces the most accurate prediction for each image
+- Achieved significant reduction in FLOPs with no accuracy degradation
+- Demonstrated generalizability across downstream tasks including object detection
+
+**Status**: Published in Neural Networks (2024), Vol. 174: 106235
