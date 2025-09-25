@@ -7,7 +7,7 @@ excerpt: 'A causal Bayesian framework that clusters users and models residuals b
 date: 2024-07-01
 venue: 'IJCAI2025 Workshop / Submitted to TMLR'
 slidesurl: ''
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2408.04949'
 citation: 'Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Shreya Venugopal, Desmond Lobo, Chengzhi Mao, Qi Xu, Zhigang Hua, Yan Xie, Bo Long, Shuang Yang, Hao Wang. &quot;Probabilistic Residual User Clustering.&quot; <i>IJCAI2025 Workshop / Submitted to TMLR</i>.'
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'A reinforcement learning-based framework for generating semantically a
 date: 2025-01-01
 venue: 'ICLR 2025(Under Review)'
 slidesurl: ''
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2410.18653'
 bibtexurl: ''
 citation: Yue Xin*, 'Wenyuan Wang*, Rui Pan, Ruida Wang, BingXu Meng, Renjie Pi, Shizhe Diao, Tong Zhang. &quot;Generalizable Geometric Image Caption Synthesis.&quot; <i> ICLR 2025(Under Review)</i>.'
 ---

@@ -17,5 +17,6 @@ This work introduces a comprehensive benchmark for evaluating the long-context c
 - Evaluated performance of InstructBLIP vicuna/t5 on custom-developed benchmark
 - Provided systematic analysis of current MLLM limitations in long-context scenarios
 
-**Status**: NAACL 2025 Main Conference
 citation: 'Hengyi Wang, Haizhou Shi, Shiwei Tan, Weiyi Qin, Wenyuan Wang, Tunyu Zhang, Akshay Nambi, Tanuja Ganu, Hao Wang. &quot;Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models.&quot; <i>NAACL 2025 Main</i>.'
+
+**Status**: NAACL 2025 Main Conference
