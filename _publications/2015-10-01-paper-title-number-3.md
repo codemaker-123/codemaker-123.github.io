@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models"
 collection: publications
-category: conferences
+category: papers
 permalink: /publication/2025-01-01-multimodal-needle-haystack
 excerpt: 'A comprehensive benchmark for evaluating the long-context capabilities of multimodal large language models.'
 date: 2025-01-01
