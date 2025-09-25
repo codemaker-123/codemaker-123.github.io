@@ -13,9 +13,7 @@ citation: 'Haizhou Shi, Zihao Xu, Hengyi Wang, Weiyi Qin, Wenyuan Wang, Yibin Wa
 This comprehensive survey examines the landscape of continual learning approaches for large language models, providing a systematic analysis of current methodologies, identifying key challenges, and outlining future research directions.
 
 ## Key Contributions
-- Systematic taxonomy of continual learning approaches for LLMs
-- Comprehensive analysis of catastrophic forgetting mitigation strategies
-- In-depth discussion of evaluation protocols and benchmarks
-- Identification of open challenges and future research directions
+- Systematic taxonomy of continual learning approaches for LLMs and comprehensive analysis of catastrophic forgetting mitigation strategies
+- In-depth discussion of evaluation protocols and benchmarks and identification of open challenges and future research directions
 
-**Status**: Published in ACM Computing Surveys
+**Status**: ACM Computing Surveys
