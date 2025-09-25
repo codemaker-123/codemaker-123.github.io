@@ -1,7 +1,7 @@
 ---
 title: "Probabilistic Residual User Clustering"
 collection: publications
-category: manuscripts
+category: papers
 permalink: /publication/2024-07-01-probabilistic-residual-user-clustering
 excerpt: 'A causal Bayesian framework that clusters users and models residuals between predicted and true ratings to enhance recommendation accuracy.'
 date: 2024-07-01
