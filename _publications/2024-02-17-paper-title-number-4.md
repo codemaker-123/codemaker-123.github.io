@@ -1,7 +1,7 @@
 ---
 title: "Continual Learning of Large Language Models: A Comprehensive Survey"
 collection: publications
-category: manuscripts
+category: papers
 permalink: /publication/2024-01-01-continual-learning-survey
 excerpt: 'A comprehensive survey on continual learning approaches for large language models, covering methodologies, challenges, and future directions.'
 date: 2024-01-01
