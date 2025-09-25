@@ -14,8 +14,7 @@ citation: 'Hengyi Wang, Haizhou Shi, Shiwei Tan, Weiyi Qin, Wenyuan Wang, Tunyu 
 This work introduces a comprehensive benchmark for evaluating the long-context capabilities of multimodal large language models, extending the traditional "needle in a haystack" evaluation to multimodal settings.
 
 ## Key Contributions
-- Developed novel evaluation protocols for multimodal long-context understanding
-- Created comprehensive benchmarks spanning various modalities and context lengths
+- Evaluated performance of InstructBLIP vicuna/t5 on custom-developed benchmark
 - Provided systematic analysis of current MLLM limitations in long-context scenarios
 
-**Status**: Accepted at NAACL 2025 Main Conference
+**Status**: NAACL 2025 Main Conference
