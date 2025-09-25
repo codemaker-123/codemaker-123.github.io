@@ -4,7 +4,7 @@ collection: publications
 category: papers
 permalink: /publication/2024-01-01-multi-tailed-vision-transformer
 excerpt: 'A novel architecture that uses multiple tails to generate visual sequences of different lengths for efficient vision transformer inference.'
-date: 2024-01-01
+date: 2022-03-01
 venue: 'Neural Networks'
 paperurl: 'https://arxiv.org/abs/2203.01587'
 citation: 'Yunke Wang, Bo Du, Wenyuan Wang, Chang Xu. &quot;Multi-tailed vision transformer for efficient inference.&quot; <i>Neural Networks</i>, 2024, 174: 106235.'

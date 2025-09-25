@@ -4,7 +4,7 @@ collection: publications
 category: papers
 permalink: /publication/2025-01-01-geo-image-textualization
 excerpt: 'A reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs, creating the first dataset with full modality equivalence for geometric reasoning.'
-date: 2025-01-01
+date: 2024-09-01
 venue: 'ICLR 2025(Under Review)'
 slidesurl: ''
 paperurl: 'https://arxiv.org/abs/2509.15217'
