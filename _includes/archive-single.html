@@ -13,7 +13,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"
     {% if post.collection == 'publications' %}
-    style="background: #fafbfc; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;"
+    style="background: #fafbfc; border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;"
     onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)';"
     onmouseout="this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'; this.style.transform='translateY(0)';"
     {% endif %}>
@@ -23,18 +23,18 @@
       </div>
     {% endif %}
     
-    <h2 class="archive__item-title" itemprop="headline" style="margin-bottom: 12px;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-bottom: 10px;">
       {% if post.collection == 'publications' and post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="permalink"
+        <span style="color: #333; font-size: 0.8em; margin-right: 8px;">●</span><a href="{{ post.paperurl }}" target="_blank" rel="permalink"
            style="color: #2c3e50; text-decoration: none; border-bottom: 2px solid transparent; transition: all 0.3s ease;"
            onmouseover="this.style.borderBottom='2px solid #52adc8'; this.style.color='#52adc8';"
            onmouseout="this.style.borderBottom='2px solid transparent'; this.style.color='#2c3e50';">
           {{ title }}
         </a>
       {% elsif post.link %}
-        <a href="{{ post.link }}" rel="permalink">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% if post.collection == 'publications' %}<span style="color: #333; font-size: 0.8em; margin-right: 8px;">●</span>{% endif %}<a href="{{ post.link }}" rel="permalink">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% if post.collection == 'publications' %}<span style="color: #333; font-size: 0.8em; margin-right: 8px;">●</span>{% endif %}<a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
     
@@ -44,18 +44,18 @@
         {% if citation_parts[0] %}
           {% assign authors_text = citation_parts[0] | strip | remove: '.' %}
           {% assign authors_text = authors_text | replace: 'Wenyuan Wang', '<strong>Wenyuan Wang</strong>' %}
-          <p class="archive__item-excerpt" style="margin-bottom: 10px; line-height: 1.4;">
+          <p class="archive__item-excerpt" style="margin-bottom: 8px; line-height: 1.4;">
             <strong style="color: #494e52;">Authors:</strong> {{ authors_text }}
           </p>
         {% endif %}
       {% endif %}
       {% if post.venue and post.date %}
-        <p class="archive__item-excerpt" style="margin-bottom: 10px; line-height: 1.4;">
+        <p class="archive__item-excerpt" style="margin-bottom: 8px; line-height: 1.4;">
           <span style="font-style: italic; color: #52adc8; font-weight: 500;">{{ post.venue }}</span>
         </p>
       {% endif %}
       {% if post.excerpt %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 12px; color: #555; line-height: 1.5; font-size: 0.95em;">{{ post.excerpt }}</p>
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 8px; color: #555; line-height: 1.5; font-size: 0.95em;">{{ post.excerpt }}</p>
       {% endif %}
     {% else %}
       {% if post.read_time %}
