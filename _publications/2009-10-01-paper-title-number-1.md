@@ -13,8 +13,8 @@ citation: Yue Xin*, 'Wenyuan Wang*, Rui Pan, Ruida Wang, BingXu Meng, Renjie Pi,
 ---
 
 ## Key Contributions
-- Developed a novel RL-based framework for geometry-text alignment
-- Created GeoReasoning-10K dataset with full modality equivalence
+- Proposed Geo-Image-Textualization, a reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs
+- Constructed GeoReasoning-10K, the first dataset with full modality equivalence for geometric reasoning
 - Demonstrated significant improvements in Qwen-2.5-vl performance across geometry, arithmetic, algebraic, and numeric domains
 
 **Status**: ICLR 2025(Under Review)
