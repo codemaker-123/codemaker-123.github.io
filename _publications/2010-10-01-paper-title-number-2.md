@@ -14,8 +14,8 @@ citation: 'Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Shreya Venugopal, D
 This work proposes **PRUC** (Probabilistic Residual User Clustering), a causal Bayesian framework that clusters users and models residuals between predicted and true ratings to enhance recommendation accuracy.
 
 ## Key Contributions
+- Proposed PRUC, a causal Bayesian framework that clusters users and models residuals between predicted and true ratings
 - Introduced a plug-and-play architecture compatible with diverse deep learning recommenders
-- Improved performance in cold-start and domain-shift settings
 - Demonstrated significant improvement across benchmark datasets while uncovering meaningful user clusters via latent variable inference
 
-**Status**: Accepted at IJCAI2025 Workshop on Causal Learning for Recommendation Systems, Under Review at TMLR
+**Status**: IJCAI2025 Workshop on Causal Learning for Recommendation Systems/ TMLR(Under Review)
