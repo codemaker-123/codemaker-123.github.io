@@ -1,7 +1,7 @@
 ---
 title: "Generalizable Geometric Image Caption Synthesis"
 collection: publications
-category: manuscripts
+category: papers
 permalink: /publication/2025-01-01-geo-image-textualization
 excerpt: 'A reinforcement learning-based framework for generating semantically aligned geometry image-caption pairs, creating the first dataset with full modality equivalence for geometric reasoning.'
 date: 2025-01-01
@@ -19,4 +19,4 @@ This work proposes **Geo-Image-Textualization**, a reinforcement learning-based 
 - Created GeoReasoning-10K dataset with full modality equivalence
 - Demonstrated significant improvements in Qwen-2.5-vl performance across geometry, arithmetic, algebraic, and numeric domains
 
-**Status**: Under Review at NeurIPS 2025 Datasets and Benchmarks Track
+**Status**: Under Review at ICLR 2025
