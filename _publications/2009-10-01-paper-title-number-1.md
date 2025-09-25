@@ -9,7 +9,7 @@ venue: 'ICLR 2025(Under Review)'
 slidesurl: ''
 paperurl: ''
 bibtexurl: ''
-citation: Yue Xin*, 'Wenyuan Wang*, Rui Pan, Ruida Wang, BingXu Meng, Renjie Pi, Shizhe Diao, Tong Zhang. &quot;Generalizable Geometric Image Caption Synthesis.&quot; <i>Submitted to NeurIPS Datasets and Benchmarks Track</i>.'
+citation: Yue Xin*, 'Wenyuan Wang*, Rui Pan, Ruida Wang, BingXu Meng, Renjie Pi, Shizhe Diao, Tong Zhang. &quot;Generalizable Geometric Image Caption Synthesis.&quot; <i> ICLR 2025(Under Review)</i>.'
 ---
 
 ## Key Contributions
