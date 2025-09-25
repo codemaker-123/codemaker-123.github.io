@@ -1,7 +1,7 @@
 ---
 title: "Multi-tailed vision transformer for efficient inference"
 collection: publications
-category: manuscripts
+category: papers
 permalink: /publication/2024-01-01-multi-tailed-vision-transformer
 excerpt: 'A novel architecture that uses multiple tails to generate visual sequences of different lengths for efficient vision transformer inference.'
 date: 2024-01-01
