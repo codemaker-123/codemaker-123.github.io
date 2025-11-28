@@ -1,0 +1,69 @@
+[site]
+title = "Wenyuan Wang"
+description = "Research Assistant at UIUC working on multimodal learning, computer vision, and AI reasoning capabilities"
+favicon = "/favicon.svg"
+last_updated = "November 28, 2025"
+
+[author]
+name = "Wenyuan Wang (王文渊)"
+title = "Research Assistant"
+institution = "University of Illinois Urbana-Champaign"
+avatar = "/img.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "ww462@scarletmail.rutgers.edu"
+location = "Urbana-Champaign, Illinois"
+location_url = "https://maps.google.com/maps/place/Urbana-Champaign,+Illinois"
+location_details = [
+  "University of Illinois Urbana-Champaign,",
+  "Urbana, Illinois, USA"
+]
+google_scholar = "https://scholar.google.com/citations?user=LuVUJmEAAAAJ&hl"
+orcid = "https://orcid.org/0009-0007-5287-1296"
+github = "https://github.com/codemaker-123"
+linkedin = ""
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
