@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(git checkout -b cv_new)",
+      "Bash(git add PRISM_content/)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd PRISM resume template with personal information\n\n- Initialize PRISM resume template structure in PRISM_content/ directory\n- Update config.toml with personal information (name, email, social links, etc.)\n- Update bio.md with research background and vision\n- Update about.toml with research interests relevant to multimodal learning and AI\n- Update cv.md with education, work experience, and skills\n\nThis creates a new cv_new branch with PRISM template customized for Wenyuan Wang''s academic profile.\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push -u origin cv_new)",
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(npm install --legacy-peer-deps)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nComplete PRISM template setup with build\n\n- Integrate full PRISM Next.js project structure (src, public, config files)\n- Rename PRISM_content to content directory\n- Successfully build PRISM project to generate static files in out/\n- Add .nojekyll file for GitHub Pages compatibility with _next folder\n- Install all npm dependencies and generate optimized production build\n\nPRISM now generates:\n- Home page with profile and research interests\n- Publications page with BibTeX support\n- Teaching, Awards, Services, and CV pages\n- Dark mode support and responsive design\n- Static HTML output ready for GitHub Pages deployment\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git checkout cv_new)",
+      "Bash(git push origin cv_new)",
+      "Bash(git add .github/workflows/deploy-prism.yml)",
+      "Bash(git commit -m \"Add GitHub Actions workflow for PRISM deployment\n\n- Automatically build PRISM on cv_new branch updates\n- Deploy built site to gh-pages branch\n- Configure GitHub Pages with custom domain\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

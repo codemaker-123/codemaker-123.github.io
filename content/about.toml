@@ -4,10 +4,8 @@ title = "About"
 [profile]
 research_interests = [
   "Multimodal Learning",
-  "Reinforcement Learning",
-  "Computer Vision",
-  "Trustworthy AI",
-  "Formal Languages and Reasoning"
+   "World Model"
+  "Trustworthy AI and Interpretability",
 ]
 
 [[sections]]
