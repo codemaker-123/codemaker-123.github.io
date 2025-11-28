@@ -2,4 +2,4 @@ I am a Research Assistant at the University of Illinois Urbana-Champaign, workin
 
 I obtained my B.S. in Electronic Information Engineering from Wuhan University in 2024, with a GPA of 3.60/4.0 (87.2).
 
-My research focuses on **multimodal models** and **enhancing their reasoning capabilities**, with emphasis on improving interpretability and leveraging formal languages like Lean to strengthen reasoning processes. My vision is to develop multimodal models that deeply understand the physical world.
+My research focuses on multimodal learning, world models and interpretability. I aim to develop AI systems capable of robust causal forecasting and grounded understanding of the physical world.
