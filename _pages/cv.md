@@ -9,32 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in Electronic Information Engineering, Wuhan University, 2024
-  * GPA: 3.60/4.0 (87.2)
-  * Third Class Scholarship of School of Electronic Information, 2021
-    
-Work Experience
-======
-* Aug 2023 - Jan 2024: **Visual Alignment in Industrial Settings**
-  * Intern, Siemens, Shanghai, China
-  * Simulated AGV to detect cargo in Gazebo based on ROS2
-  * Designed visual algorithm that calculated pose and position of cargo by determining its frontal area
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="{{ base_path }}/CV.pdf" class="btn btn--info" download>Download PDF</a>
+</div>
 
-Skills
-======
-* **Programming**: Proficient in Python, C++, C
-* **Development Tools & Platforms**: Experienced with ROS, Linux, and embedded systems
-* **Research Areas**:
-  * Multimodal Learning
-  * Computer Vision
-  * Reinforcement Learning
-  * Trustworthy AI
-  * Large Language Models
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<iframe src="{{ base_path }}/CV.pdf" width="100%" height="1000px" style="border: 1px solid #ccc;"></iframe>
