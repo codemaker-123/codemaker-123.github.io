@@ -21,9 +21,9 @@ Rutgers University
 
 ## Skills
 
-- **Programming:** Proficient in Python, C++, C
-- **Development Tools & Platforms:** ROS, Linux, Embedded Systems
-- **Research Areas:** Multimodal Learning, Computer Vision, Reinforcement Learning, Trustworthy AI, Large Language Models
+- **Programming:** Python, C++, C, Lean, Pytorch
+- **Development Tools & Platforms:** ROS, Linux, Docker, Embedded Systems, Gazebo, IsaacSim
+- **Research Areas:** Multimodal Learning, World Model, Reinforcement Learning, Interpretability
 
 ## Selected Publications
 
