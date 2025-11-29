@@ -9,14 +9,15 @@
 **Research Assistant**
 University of Illinois Urbana-Champaign
 *Aug 2025 - Present*
-- Working with Prof. Tong Zhang on multimodal learning and AI reasoning
-- Developing frameworks to enhance reasoning capabilities in multimodal models
+- Working with Prof. Tong Zhang
+- Research on multimodal learning and Geometry reasoning
+
 
 **Visiting Student**
 Rutgers University
 *2024 - 2025*
 - Advised by Prof. Hao Wang
-- Research on multimodal models and interpretability
+- Research on recommender system, Bayesian and interpretability of MLLM
 
 ## Skills
 
