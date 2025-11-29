@@ -18,12 +18,6 @@ Rutgers University
 - Advised by Prof. Hao Wang
 - Research on multimodal models and interpretability
 
-**Visual Alignment in Industrial Settings Intern**
-Siemens, Shanghai, China
-*Aug 2023 - Jan 2024*
-- Simulated AGV to detect cargo in Gazebo based on ROS2
-- Designed visual algorithms to calculate pose and position of cargo using frontal area analysis
-
 ## Skills
 
 - **Programming:** Proficient in Python, C++, C
