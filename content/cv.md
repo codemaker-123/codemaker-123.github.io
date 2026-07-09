@@ -6,10 +6,10 @@
 
 ## Experience
 
-**Research Assistant**
-University of Illinois Urbana-Champaign
+**Research Intern**
+NTU
 *Aug 2025 - Present*
-- Working with Prof. Tong Zhang
+- Advised by Prof. Yang Liu
 - Research on multimodal learning and Geometry reasoning
 
 
@@ -23,7 +23,7 @@ Rutgers University
 
 - **Programming:** Python, C++, C, Lean, Pytorch
 - **Development Tools & Platforms:** ROS, Linux, Docker, Embedded Systems, Gazebo, IsaacSim
-- **Research Areas:** Multimodal Learning, World Model, Reinforcement Learning, Interpretability
+- **Research Areas:** Multimodal Learning, World Model, Reinforcement Learning, Embodied AI
 
 ## Selected Publications
 

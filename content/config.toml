@@ -1,25 +1,19 @@
 [site]
 title = "Wenyuan Wang"
-description = "Research Assistant at UIUC working on multimodal learning, computer vision, and AI reasoning capabilities"
+description = "Research Intern at NTU working on multimodal learning, computer vision, and AI reasoning capabilities"
 favicon = "/favicon.svg"
 last_updated = "November 28, 2025"
 
 [author]
 name = "Wenyuan Wang"
 title = "Research Intern"
-institution = "University of Illinois Urbana-Champaign"
+institution = "NTU"
 avatar = "/img.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
 email = "ww462@scarletmail.rutgers.edu"
-location = "Urbana-Champaign, Illinois"
-location_url = "https://maps.google.com/maps/place/Urbana-Champaign,+Illinois"
-location_details = [
-  "University of Illinois Urbana-Champaign,",
-  "Urbana, Illinois, USA"
-]
 google_scholar = "https://scholar.google.com/citations?user=LuVUJmEAAAAJ&hl"
 orcid = "https://orcid.org/0009-0007-5287-1296"
 github = "https://github.com/codemaker-123"
