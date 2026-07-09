@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Wenyuan Wang"
-description              : &description "Research Assistant at UIUC working on multimodal learning, computer vision, and AI reasoning capabilities"
+description              : &description "Research Intern at NTU working on multimodal learning, computer vision, and AI reasoning capabilities"
 url                      : https://codemaker-123.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "codemaker-123/codemaker-123.github.io"
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : ""
   # location         : "Earth"
-  employer         : "University of Illinois Urbana-Champaign"
+  employer         : "NTU"
   uri              : # URL
   email            : "ww462@scarletmail.rutgers.edu" 
 
