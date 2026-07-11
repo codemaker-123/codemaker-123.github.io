@@ -15,7 +15,6 @@ NTU
 
 **Visiting Student**
 Rutgers University
-*2024 - 2025*
 - Advised by Prof. Hao Wang
 - Research on recommender system, Bayesian and interpretability of MLLM
 

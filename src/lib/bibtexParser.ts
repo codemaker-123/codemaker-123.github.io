@@ -1,4 +1,4 @@
-import { Publication, PublicationType, ResearchArea } from '@/types/publication';
+import { Publication, PublicationStatus, PublicationType, ResearchArea } from '@/types/publication';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const bibtexParse = require('bibtex-parse-js');
@@ -15,6 +15,17 @@ const typeMapping: Record<string, PublicationType> = {
   techreport: 'technical-report',
   unpublished: 'preprint',
   misc: 'preprint',
+};
+
+const statusMapping: Record<string, PublicationStatus> = {
+  published: 'published',
+  accepted: 'accepted',
+  'under review': 'under-review',
+  'under-review': 'under-review',
+  submitted: 'submitted',
+  'in preparation': 'in-preparation',
+  'in-preparation': 'in-preparation',
+  draft: 'draft',
 };
 
 // Convert month names to numbers
@@ -67,7 +78,7 @@ export function parseBibTeX(bibtexContent: string): Publication[] {
       year,
       month: monthMapping[tags.month?.toLowerCase()] ? String(month) : tags.month,
       type,
-      status: 'published',
+      status: statusMapping[tags.status?.toLowerCase()] || 'published',
       tags: keywords,
       keywords,
       researchArea: detectResearchArea(tags.title, keywords),
