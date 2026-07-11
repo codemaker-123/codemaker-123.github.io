@@ -228,7 +228,18 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {pub.arxivId ? (
+                                            <a
+                                                href={`https://arxiv.org/abs/${pub.arxivId}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-accent transition-colors"
+                                            >
+                                                {pub.journal || pub.conference}
+                                            </a>
+                                        ) : (
+                                            pub.journal || pub.conference
+                                        )} {pub.year}
                                         {pub.status === 'accepted' && (
                                             <span className="ml-2 inline-flex rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300">
                                                 Accepted
@@ -251,6 +262,16 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
                                                 DOI
+                                            </a>
+                                        )}
+                                        {pub.arxivId && (
+                                            <a
+                                                href={`https://arxiv.org/abs/${pub.arxivId}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                arXiv
                                             </a>
                                         )}
                                         {pub.code && (

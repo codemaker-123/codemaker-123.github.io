@@ -53,7 +53,18 @@ export default function SelectedPublications({ publications, title = 'Selected P
                             ))}
                         </p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
+                            {pub.arxivId ? (
+                                <a
+                                    href={`https://arxiv.org/abs/${pub.arxivId}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-accent transition-colors"
+                                >
+                                    {pub.journal || pub.conference}
+                                </a>
+                            ) : (
+                                pub.journal || pub.conference
+                            )}
                             {pub.status === 'accepted' && (
                                 <span className="ml-2 inline-flex rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300">
                                     Accepted
