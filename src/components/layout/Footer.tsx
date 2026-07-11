@@ -1,5 +1,7 @@
 'use client';
 
+import VisitorCounter from './VisitorCounter';
+
 interface FooterProps {
   lastUpdated?: string;
 }
@@ -12,12 +14,14 @@ export default function Footer({ lastUpdated }: FooterProps) {
           <p className="text-xs text-neutral-500">
             Last updated: {lastUpdated || new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
           </p>
-          <p className="text-xs text-neutral-500 flex items-center">
+          <div className="text-xs text-neutral-500 flex items-center gap-2">
+            <VisitorCounter />
+            <span aria-hidden="true">·</span>
             <a href="https://github.com/xyjoey/PRISM" target="_blank" rel="noopener noreferrer">
               Built with PRISM
             </a>
-            <span className="ml-2">🚀</span>
-          </p>
+            <span>🚀</span>
+          </div>
         </div>
       </div>
     </footer>
