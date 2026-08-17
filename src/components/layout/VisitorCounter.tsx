@@ -1,16 +1,28 @@
 'use client';
 
-const COUNTER_BADGE_URL = 'https://komarev.com/ghpvc/?username=codemaker-123&label=Visits&base=300&style=flat&color=263759';
+import { useEffect, useState } from 'react';
+
+const COUNTER_ENDPOINT = 'https://homepage-counter.ltt3290901.workers.dev/hit';
 
 export default function VisitorCounter() {
+  const [visits, setVisits] = useState<number | null>(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch(COUNTER_ENDPOINT, { cache: 'no-store', signal: controller.signal })
+      .then(response => response.ok ? response.json() : Promise.reject(new Error('Unable to record visit')))
+      .then((data: { count: number }) => setVisits(data.count))
+      .catch(error => {
+        if (error.name !== 'AbortError') setVisits(null);
+      });
+
+    return () => controller.abort();
+  }, []);
+
   return (
-    <img
-      src={COUNTER_BADGE_URL}
-      alt="Visits"
-      className="h-5 w-auto"
-      onError={(event) => {
-        event.currentTarget.style.display = 'none';
-      }}
-    />
+    <span aria-label="Visits">
+      Visits: {visits === null ? '—' : visits.toLocaleString()}
+    </span>
   );
 }
